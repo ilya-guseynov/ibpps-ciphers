@@ -82,9 +82,9 @@ class VigenureCipherEncoder {
 }
 
 function main(): void {
-  const key: string = "Фильм"
-  const initialPhrase: string = "От заката до рассвета"
-  const initialEncodedPhase: string = "АХР ЙЯЪХЛ ООВЗ ЩАСЪМЛ ЭЪЖРШЖФ Ь ФЩОЪКРХЗ"
+  const key: string = "Ницше"
+  const initialPhrase: string = "от добра добра не ищут"
+  const initialEncodedPhase: string = "ЪНИ ЗХТТЖШЦЪЦЯ ЗУПНЖНТЫЩИА ЖТП ЙЮЕЮХДБ ИШЫЧАТИ"
 
   console.log(`Ключ                                        "${ key }"`)
 
