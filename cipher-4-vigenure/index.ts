@@ -64,7 +64,7 @@ class VigenureCipherEncoder {
       vigenureMatrix[0].push(russianLetter)
     })
 
-    this.key.split("").forEach((keyLetter: string) => {
+    key.split("").forEach((keyLetter: string) => {
       vigenureMatrix.push([])
       vigenureMatrix[vigenureMatrix.length - 1].push(keyLetter)
 
