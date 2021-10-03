@@ -199,7 +199,7 @@ class PolibCipherEncoder {
   }
 }
 
-function main(): void {
+function mainPolib(): void {
   const initialPhrase: string = "ОТРАССВЕТАДОЗАКАТА"
   const initialEncodedPharse: string = "НОУЁЗУЪЮГЖХБЛХ_БУБЗ=ВУАСЕНЮ"
 
@@ -216,4 +216,4 @@ function main(): void {
   console.log(`Третий метод   => ${ new PolibCipherEncoder(initialEncodedPharse).decode3() }`)
 }
 
-main()
+mainPolib()
