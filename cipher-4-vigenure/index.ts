@@ -81,7 +81,7 @@ class VigenureCipherEncoder {
   }
 }
 
-function main(): void {
+function mainVigenure(): void {
   const key: string = "Ницше"
   const initialPhrase: string = "от добра добра не ищут"
   const initialEncodedPhase: string = "ЪНИ ЗХТТЖШЦЪЦЯ ЗУПНЖНТЫЩИА ЖТП ЙЮЕЮХДБ ИШЫЧАТИ"
@@ -101,4 +101,4 @@ function main(): void {
   console.log(`Зашифрованная исходная фраза обратно        "${ new VigenureCipherEncoder(new VigenureCipherEncoder(initialEncodedPhase, key).decode(), key).encode() }"`)
 }
 
-main()
+mainVigenure()
