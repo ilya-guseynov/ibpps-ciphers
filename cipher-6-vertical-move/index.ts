@@ -26,7 +26,7 @@ class VercticalMoveCipherEncoder {
   }
 
   private encodeMatrix(matrix: string[][], key: string): string[][] {
-    const newMatrix = []
+    const newMatrix: string[][] = []
 
     matrix.forEach((horizontalLine: string[]) => {
       const newHorizontalLine: string[] = []
@@ -42,7 +42,7 @@ class VercticalMoveCipherEncoder {
   }
 
   private decodeMatrix(matrix: string[][], key: string): string[][] {
-    const newMatrix = []
+    const newMatrix: string[][] = []
 
     matrix.forEach((horizontalLine: string[]) => {
       const newHorizontalLine: string[] = []
@@ -92,8 +92,8 @@ function mainVerticalMove(): void {
   const key: string = "87643521"
   const phrase: string = "ЭтоОченьСложныйШифр"
 
-  const encoded = new VercticalMoveCipherEncoder(phrase, key).encode()
-  const decoded = new VercticalMoveCipherEncoder(encoded, key).decode()
+  const encoded: string = new VercticalMoveCipherEncoder(phrase, key).encode()
+  const decoded: string = new VercticalMoveCipherEncoder(encoded, key).decode()
 
   console.log(`Ключ "${ key }"`)
   console.log(`Фраза "${ phrase }"`)
