@@ -10,11 +10,11 @@ class GridCipherEncoder {
   private width: number
   private height: number
 
-  constructor(initialString: string, grid: Grid, width: number = 4, heidth: number = 4) {
+  constructor(initialString: string, grid: Grid, width: number = 4, heigth: number = 4) {
     this.initialString = initialString
     this.grid = grid
     this.width = width
-    this.height = heidth
+    this.height = heigth
   }
 
   encode(): string {
